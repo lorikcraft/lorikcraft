@@ -1,21 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="title desc">
-<title id="title">LoRiK Craft</title><desc id="desc">LoRiK Craft wordmark in bold white lettering with a yellow brush stroke and a planet orbit emblem.</desc>
-
-<path d="M38 224 Q120 174 216 164 T470 118 Q418 154 330 175 T75 253 L107 226 L54 244Z" fill="#F5ED00"/>
-<path d="M60 233L171 185M294 173L456 128M88 242L245 188" fill="none" stroke="#F5ED00" stroke-width="3" stroke-linecap="round"/>
-<g transform="rotate(-3 240 154)" font-family="Impact,'Arial Black',sans-serif" font-weight="900" text-anchor="middle" stroke-linejoin="round" paint-order="stroke fill">
-<text x="238" y="159" font-size="117" letter-spacing="-7" fill="#111" stroke="#111" stroke-width="13">LORIK</text>
-<text x="238" y="159" font-size="117" letter-spacing="-7" fill="#fff" stroke="#fff" stroke-width="1">LORIK</text>
-<text x="264" y="220" font-size="79" letter-spacing="-4" fill="#111" stroke="#111" stroke-width="10">CRAFT</text>
-<text x="264" y="220" font-size="79" letter-spacing="-4" fill="#fff" stroke="#fff" stroke-width="1">CRAFT</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-labelledby="title desc">
+<title id="title">LoRiK Craft</title><desc id="desc">LoRiK Craft bold white wordmark with yellow paint stroke and orbiting planet symbol on a transparent background.</desc>
+<g>
+<path d="M22 225 C88 190 130 180 202 169 C285 155 382 144 536 103 C487 143 421 165 348 180 C240 202 134 229 42 266 L75 235 L29 251Z" fill="#F5ED00"/>
+<path d="M41 240L167 191M214 182L511 116M91 250L266 187" fill="none" stroke="#F5ED00" stroke-width="4" stroke-linecap="round"/>
+<g transform="rotate(-3 255 160)" font-family="Impact,'Arial Black',sans-serif" font-weight="900" text-anchor="middle" paint-order="stroke fill" stroke-linejoin="round">
+<text x="252" y="158" font-size="126" letter-spacing="-7" fill="#080808" stroke="#080808" stroke-width="18">LORIK</text>
+<text x="252" y="158" font-size="126" letter-spacing="-7" fill="#fff" stroke="#fff" stroke-width="1">LORIK</text>
+<text x="279" y="232" font-size="83" letter-spacing="-4" fill="#080808" stroke="#080808" stroke-width="14">CRAFT</text>
+<text x="279" y="232" font-size="83" letter-spacing="-4" fill="#fff" stroke="#fff" stroke-width="1">CRAFT</text>
 </g>
-<g transform="translate(365 73) rotate(-15)">
-<circle r="40" fill="#fff"/>
-<ellipse rx="67" ry="15" fill="none" stroke="#fff" stroke-width="6"/>
-<path d="M43 -9L69 -13L57 1" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
-<path d="M-7 -20l5 10 11 1-8 7 2 11-10-6-10 6 2-11-8-7 11-1z" fill="#000"/>
-<path d="M18 -29l3 6 7 1-5 4 1 7-6-4-6 4 1-7-5-4 7-1z" fill="#000"/>
-<text x="0" y="-55" fill="#fff" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.2" text-anchor="middle">YOUR GROWTH</text>
+<g transform="translate(390 74) rotate(-15)">
+<circle r="39" fill="#fff"/>
+<ellipse rx="72" ry="15" fill="none" stroke="#fff" stroke-width="6"/>
+<path d="M48 -9L74 -14L59 2" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path d="M-8 -20l5 10 11 1-8 7 2 11-10-6-10 6 2-11-8-7 11-1z" fill="#080808"/>
+<path d="M18 -28l3 6 7 1-5 4 1 7-6-4-6 4 1-7-5-4 7-1z" fill="#080808"/>
+<text x="0" y="-53" fill="#fff" font-family="Arial,sans-serif" font-size="10" letter-spacing="2" text-anchor="middle">YOUR GROWTH</text>
 <text x="0" y="56" fill="#fff" font-family="Arial,sans-serif" font-size="9" letter-spacing="2" text-anchor="middle">OUR CRAFT</text>
-</g>
-</svg>
+</g></g></svg>

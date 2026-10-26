@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="title desc">
 <title id="title">LoRiK Craft</title><desc id="desc">LoRiK Craft wordmark in bold white lettering with a yellow brush stroke and a planet orbit emblem.</desc>
-<rect width="520" height="300" fill="#000"/>
+
 <path d="M38 224 Q120 174 216 164 T470 118 Q418 154 330 175 T75 253 L107 226 L54 244Z" fill="#F5ED00"/>
 <path d="M60 233L171 185M294 173L456 128M88 242L245 188" fill="none" stroke="#F5ED00" stroke-width="3" stroke-linecap="round"/>
 <g transform="rotate(-3 240 154)" font-family="Impact,'Arial Black',sans-serif" font-weight="900" text-anchor="middle" stroke-linejoin="round" paint-order="stroke fill">

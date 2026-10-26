@@ -112,3 +112,6 @@ header .brand img{display:block;width:136px;height:auto;max-width:100%;max-heigh
  .footer .brand{width:126px;height:81px;flex:0 0 126px}
  .footer .brand img{width:126px;height:auto;max-width:100%;max-height:none}
 }
+
+/* Let the original black-backed mark sit naturally on the dark site surface */
+header .brand img,.footer .brand img{mix-blend-mode:screen}

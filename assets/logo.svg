@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="300" viewBox="0 0 620 300"><rect width="620" height="300" fill="#000"/><g transform="translate(0 0)"><circle cx="420" cy="78" r="56" fill="#fff"/><ellipse cx="431" cy="78" rx="79" ry="19" transform="rotate(-18 431 78)" fill="none" stroke="#fff" stroke-width="7"/><path d="M470 65l36 1-22 14" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><g fill="#000"><path d="M401 49l7 12 13 1-10 8 3 13-11-7-11 7 3-13-10-8 13-1z"/><path d="M433 38l4 7 8 1-6 5 2 8-8-4-7 4 2-8-6-5 8-1z"/></g><text x="421" y="18" font-family="Arial,sans-serif" font-size="13" letter-spacing="4" text-anchor="middle" fill="#fff">YOUR GROWTH</text><text x="449" y="143" font-family="Arial,sans-serif" font-size="12" letter-spacing="3" text-anchor="middle" fill="#fff" transform="rotate(-72 449 143)">GROUP</text><path d="M60 239L507 104l-30 23 20-3-43 28 14-19-74 27 18-17-75 26 15-16-68 24 17-17-81 31 17-16z" fill="#f5ed00"/><g font-family="Impact,'Arial Black',sans-serif" font-weight="900" fill="#fff" stroke="#000" stroke-width="5" paint-order="stroke fill" stroke-linejoin="round"><text x="104" y="157" font-size="103" letter-spacing="-6" transform="rotate(-3 104 157)">LORIK</text><text x="154" y="222" font-size="74" letter-spacing="-3" transform="rotate(-2 154 222)">CRAFT</text></g><path d="M110 163l390-17-14 8-362 17z" fill="#000" opacity=".9"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">LoRiK Craft logo</title><desc id="desc">White bold LoRiK Craft lettering with a yellow brush stroke and a small orbiting planet carrying the Your Growth Our Craft tagline.</desc>
+<rect width="1000" height="560" fill="#000"/>
+<g transform="translate(0 8)">
+<path d="M150 390 C290 315 444 315 570 270 S760 220 850 228 C790 266 720 286 635 302 C490 329 331 372 183 424 L218 394 L163 413 L195 382Z" fill="#F4E900"/>
+<path d="M172 396 L390 314 M550 284 L829 229 M232 403 L482 332" fill="none" stroke="#F4E900" stroke-width="5" stroke-linecap="round"/>
+<g transform="rotate(-3 500 280)" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-weight="900" text-anchor="middle" paint-order="stroke fill" stroke-linejoin="round">
+<text x="470" y="286" font-size="184" letter-spacing="-10" fill="#111" stroke="#111" stroke-width="23">LORIK</text>
+<text x="470" y="286" font-size="184" letter-spacing="-10" fill="#fff" stroke="#fff" stroke-width="3">LORIK</text>
+<text x="505" y="380" font-size="124" letter-spacing="-5" fill="#111" stroke="#111" stroke-width="20">CRAFT</text>
+<text x="505" y="380" font-size="124" letter-spacing="-5" fill="#fff" stroke="#fff" stroke-width="2">CRAFT</text>
+</g>
+<g transform="translate(690 155) rotate(-14)">
+<circle cx="0" cy="0" r="68" fill="#fff"/>
+<ellipse cx="10" cy="0" rx="112" ry="24" fill="none" stroke="#fff" stroke-width="9"/>
+<path d="M77 -15 L117 -19 L99 2" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-12 -36 l9 18 20 2 -15 12 4 19 -18 -10 -18 10 4 -19 -15 -12 20 -2z" fill="#000"/>
+<path d="M29 -52 l5 10 11 1 -8 7 2 11 -10 -6 -10 6 2 -11 -8 -7 11 -1z" fill="#000"/>
+<path d="M-1 -2 l4 8 9 1 -7 6 2 9 -8 -5 -8 5 2 -9 -7 -6 9 -1z" fill="#000"/>
+<text x="0" y="-89" fill="#fff" font-family="Arial,sans-serif" font-size="21" letter-spacing="5" text-anchor="middle">YOUR GROWTH</text>
+<text x="0" y="99" fill="#fff" font-family="Arial,sans-serif" font-size="19" letter-spacing="5" text-anchor="middle">OUR CRAFT</text>
+</g></g></svg>

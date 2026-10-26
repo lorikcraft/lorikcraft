@@ -115,3 +115,73 @@ header .brand img{display:block;width:136px;height:auto;max-width:100%;max-heigh
 
 /* Let the original black-backed mark sit naturally on the dark site surface */
 header .brand img,.footer .brand img{mix-blend-mode:screen}
+
+
+/* LoRiK Craft refresh — logo integration, interaction polish and responsive rhythm */
+header{background:rgba(10,10,10,.92);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);position:sticky;top:0}
+.brand{flex-shrink:0}
+.brand img{mix-blend-mode:screen;filter:contrast(1.04);width:164px;max-height:60px;object-fit:contain}
+.button,.navcta,.round,.card,.simplelink{transition:color .22s ease,background-color .22s ease,border-color .22s ease,transform .22s ease,opacity .22s ease}
+.navcta{border-color:#f3ee4355}
+.navcta:hover{border-color:var(--yellow);background:#f3ee4310;color:var(--yellow)}
+.hero h1,.pagehero h1{max-width:100%;text-wrap:balance}
+.art{isolation:isolate}
+.art:after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 50%,transparent 20%,#0005 100%)}
+.sphere{transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.art:hover .sphere{transform:translate(-50%,-50%) rotate(-8deg) scale(1.04)}
+.projects>a{min-width:0}
+.projects>a:hover .visual{transform:translateY(-4px)}
+.visual{transition:transform .25s ease}
+.project-editor-link{font:10px var(--mono);letter-spacing:1px;border-bottom:1px solid #f3ee4380;padding-bottom:8px;color:var(--yellow)}
+.project-editor-link span{margin-left:12px}
+input,select,textarea{border-radius:0}
+input:focus,select:focus,textarea:focus{border-color:var(--yellow)!important;box-shadow:0 0 0 3px #f3ee431c}
+@media(max-width:900px){
+ .wrap{width:min(100% - 40px,720px)}
+ header{padding:0 20px}
+ .hero{grid-template-columns:1fr;gap:34px;padding-top:65px}
+ .hero .art{height:350px}
+ .hero h1,.pagehero h1{letter-spacing:-.045em}
+ .twocol{grid-template-columns:1fr;gap:22px}
+ .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .projects{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:650px){
+ header{height:72px;padding:0 18px}
+ .brand img{width:138px;max-height:52px}
+ .menu{display:inline-flex;border:1px solid #ffffff30;background:transparent;color:var(--paper);font-size:20px}
+ nav{display:none;position:absolute;top:71px;left:0;right:0;background:#101010f7;border-bottom:1px solid var(--line);padding:18px 20px 22px;align-items:stretch;gap:4px;flex-direction:column}
+ nav.open{display:flex}
+ nav a{padding:11px 8px}
+ nav .navcta{justify-content:center;margin-top:7px}
+ .wrap{width:calc(100% - 36px)}
+ .hero{min-height:0;padding:64px 0 58px;gap:25px}
+ .hero h1,.pagehero h1{font-size:clamp(48px,13vw,76px);line-height:.98;letter-spacing:-.055em;margin:23px 0}
+ .lead{font-size:13px;line-height:1.8}
+ .actions{gap:18px;flex-wrap:wrap}
+ .button{min-height:48px}
+ .micro{margin-top:34px}
+ .hero .art{height:290px}
+ .o1{width:260px;height:170px}.o2{width:210px;height:275px}
+ .sphere{width:130px;height:130px;font-size:42px}
+ .section{padding:66px 0}
+ .twocol{padding-top:28px}
+ .twocol h2,.workhead h2{font-size:clamp(35px,9vw,52px);letter-spacing:-.055em}
+ .cards,.projects{grid-template-columns:1fr}
+ .card{min-height:250px}
+ .card h3{margin-top:26px}
+ .visual{height:280px}
+ .workhead{align-items:flex-start;flex-direction:column}
+ .ctainner{grid-template-columns:1fr auto}
+ .ctainner h2{font-size:clamp(44px,12vw,68px);letter-spacing:-.06em}
+ .round{width:56px;height:56px}
+ .cta{padding:52px 0}
+ .footer{padding-top:26px;padding-bottom:26px;align-items:flex-start;flex-direction:column}
+ .footer>div{flex-wrap:wrap}
+ .pagehero{padding-top:65px;padding-bottom:30px}
+ .cap{grid-template-columns:32px 1fr;gap:16px}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}

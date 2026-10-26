@@ -185,3 +185,17 @@ input:focus,select:focus,textarea:focus{border-color:var(--yellow)!important;box
  html{scroll-behavior:auto}
  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+/* Selected-project visual identities */
+.visual.black{background:#0c0c0c;color:#f5f3ed}
+.visual.graphite{background:#20201f;color:#f3f1e9}
+.visual.dotfield{background:#f1efe8;color:#171715}
+.wordmark{font-size:clamp(28px,4vw,45px);font-weight:800;letter-spacing:-2px;text-align:center;line-height:1}
+.wordmark>span{font-size:.38em;letter-spacing:1px;color:var(--yellow)}
+.wordmark small{display:block;margin-top:16px;font:8px var(--mono);letter-spacing:2px;color:#a7a69e}
+.wordmark.freestyle{font-size:clamp(24px,3.4vw,38px);letter-spacing:-1.8px}
+.wordmark.freestyle small{color:var(--yellow)}
+.dotlogo{font-size:clamp(28px,4vw,44px);font-weight:800;letter-spacing:-2px}
+.dotlogo span{color:#f0ed3e;margin:0 3px}
+.dotlogo small{display:block;font:8px var(--mono);letter-spacing:2px;margin-top:14px;color:#6c6b64}
+@media(max-width:650px){.wordmark{font-size:42px}.wordmark.freestyle{font-size:34px}.dotlogo{font-size:42px}}

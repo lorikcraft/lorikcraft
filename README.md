@@ -24,6 +24,6 @@ The included `vercel.json` enables clean URLs and basic security headers. No run
 ## Notes
 - The contact form does not store submissions or send email. It prepares a WhatsApp message; the visitor must review and send it.
 - The WhatsApp number is configured in `assets/script.js` and `contact.html`. Update both if the contact number changes.
-- Replace the placeholder domain in `sitemap.xml` once the production domain is confirmed.
+- The production sitemap is published at https://lorikcraft.vercel.app/sitemap.xml; update the URLs if the production domain changes.
 - Google Fonts load remotely; system fonts remain as fallbacks.
 - Project descriptions avoid unverified performance claims.

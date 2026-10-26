@@ -82,3 +82,15 @@ header{position:sticky;top:0;background:#080808df;backdrop-filter:blur(18px);bor
 @media(max-width:800px){.hero{min-height:unset;padding-top:70px}.hero h1,.pagehero h1{font-size:clamp(55px,11vw,85px)}.hero .art{height:370px}.projects .visual{height:240px}}
 @media(max-width:650px){.brand img{width:135px;max-height:48px}.hero{padding-top:48px}.hero h1,.pagehero h1{font-size:clamp(48px,13vw,76px);letter-spacing:-.075em}.hero .art{height:clamp(270px,78vw,350px)}.section{padding-top:72px;padding-bottom:72px}.projects .visual{height:clamp(230px,70vw,310px)}.pagehero{padding-top:70px}.card{min-height:260px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Exact supplied logo: preserve its native artwork ratio without flattening it */
+header .brand{width:136px;height:86px;flex:0 0 136px;overflow:visible;gap:0}
+header .brand img{display:block;width:136px;height:auto;max-width:100%;max-height:none;object-fit:contain;object-position:center}
+.footer .brand{width:164px;height:106px;flex:0 0 164px;overflow:visible}
+.footer .brand img{width:164px;height:auto;max-width:100%;max-height:none;object-fit:contain}
+@media(max-width:650px){
+  header .brand{width:108px;height:70px;flex:0 0 108px}
+  header .brand img{width:108px;height:auto;max-width:100%;max-height:none}
+  .footer .brand{width:126px;height:81px;flex:0 0 126px}
+  .footer .brand img{width:126px;height:auto;max-width:100%;max-height:none}
+}
